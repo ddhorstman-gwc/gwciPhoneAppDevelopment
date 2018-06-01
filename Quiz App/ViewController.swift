@@ -60,7 +60,6 @@ class ViewController: UIViewController {
         }
         loadNextQuestion()
     }
-
     @IBOutlet weak var questionFeedback: UILabel!
     @IBOutlet weak var questionText: UILabel!
     @IBOutlet weak var answer3: UIButton!
