@@ -27,9 +27,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who ya gonna call?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ye-d5-G0t">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who ya gonna call?" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ye-d5-G0t">
                                 <rect key="frame" x="113" y="323" width="149" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -80,6 +80,7 @@
                             <constraint firstItem="1ye-d5-G0t" firstAttribute="top" secondItem="jGi-aJ-HIb" secondAttribute="bottom" constant="8" id="apt-wm-OdH"/>
                             <constraint firstItem="BDH-Af-F5b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cJ8-X4-yRR"/>
                             <constraint firstItem="Nmk-lf-PgF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dL0-kZ-zeu"/>
+                            <constraint firstItem="1ye-d5-G0t" firstAttribute="width" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-30" id="eT1-aa-HJY"/>
                             <constraint firstItem="BDH-Af-F5b" firstAttribute="top" secondItem="Nmk-lf-PgF" secondAttribute="bottom" constant="8" id="p3V-3E-wWx"/>
                             <constraint firstItem="iWv-OB-RhG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="q65-tb-aef"/>
                             <constraint firstItem="iWv-OB-RhG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uWA-1c-RBA"/>
