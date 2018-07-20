@@ -14,6 +14,7 @@ class InputViewController: UIViewController {
     @IBOutlet weak var inputText: UITextField!
     @IBAction func addItem(_ sender: UIButton) {
         if(inputText.text != ""){
+            print(inputText.text!)
             let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
             let newTask = TaskItem(context: context)
             newTask.taskName = inputText?.text
