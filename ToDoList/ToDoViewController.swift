@@ -78,10 +78,20 @@ class ToDoViewController: UITableViewController {
         cell.textLabel?.text = tasks[indexPath.row].taskName
         return cell
         // Configure the cell...
-
-   
     }
     
+    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) ->
+        [UITableViewRowAction]? {
+            
+            let delete = UITableViewRowAction(style: .default, title: "Delete") { (action, indexPath) in
+                let task = self.tasks[indexPath.row]
+                self.context.delete(task)
+                (UIApplication.shared.delegate as! AppDelegate).saveContext()
+                self.tasks.remove(at: indexPath.row)
+                self.toDoList.deleteRows(at: [indexPath], with: .fade)
+            }
+            return[delete]
+    }
 
     /*
     // Override to support conditional editing of the table view.
