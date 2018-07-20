@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D7DA560E21018E4B00F6DCA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DA560D21018E4B00F6DCA2 /* AppDelegate.swift */; };
-		D7DA561021018E4B00F6DCA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DA560F21018E4B00F6DCA2 /* ViewController.swift */; };
+		D7DA561021018E4B00F6DCA2 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DA560F21018E4B00F6DCA2 /* InputViewController.swift */; };
 		D7DA561321018E4B00F6DCA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DA561121018E4B00F6DCA2 /* Main.storyboard */; };
 		D7DA561621018E4B00F6DCA2 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7DA561421018E4B00F6DCA2 /* ToDoList.xcdatamodeld */; };
 		D7DA561821018E4B00F6DCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DA561721018E4B00F6DCA2 /* Assets.xcassets */; };
 		D7DA561B21018E4B00F6DCA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DA561921018E4B00F6DCA2 /* LaunchScreen.storyboard */; };
+		D7DA562321018F1E00F6DCA2 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DA562221018F1E00F6DCA2 /* ToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7DA560A21018E4B00F6DCA2 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DA560D21018E4B00F6DCA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7DA560F21018E4B00F6DCA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7DA560F21018E4B00F6DCA2 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		D7DA561221018E4B00F6DCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7DA561521018E4B00F6DCA2 /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		D7DA561721018E4B00F6DCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7DA561A21018E4B00F6DCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7DA561C21018E4B00F6DCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DA562221018F1E00F6DCA2 /* ToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				D7DA560D21018E4B00F6DCA2 /* AppDelegate.swift */,
-				D7DA560F21018E4B00F6DCA2 /* ViewController.swift */,
+				D7DA560F21018E4B00F6DCA2 /* InputViewController.swift */,
+				D7DA562221018F1E00F6DCA2 /* ToDoViewController.swift */,
 				D7DA561121018E4B00F6DCA2 /* Main.storyboard */,
 				D7DA561721018E4B00F6DCA2 /* Assets.xcassets */,
 				D7DA561921018E4B00F6DCA2 /* LaunchScreen.storyboard */,
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7DA561021018E4B00F6DCA2 /* ViewController.swift in Sources */,
+				D7DA562321018F1E00F6DCA2 /* ToDoViewController.swift in Sources */,
+				D7DA561021018E4B00F6DCA2 /* InputViewController.swift in Sources */,
 				D7DA561621018E4B00F6DCA2 /* ToDoList.xcdatamodeld in Sources */,
 				D7DA560E21018E4B00F6DCA2 /* AppDelegate.swift in Sources */,
 			);
