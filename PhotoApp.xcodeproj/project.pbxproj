@@ -13,6 +13,7 @@
 		D7A6DA1D21050973003EA43F /* PhotoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7A6DA1B21050973003EA43F /* PhotoApp.xcdatamodeld */; };
 		D7A6DA1F21050973003EA43F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A6DA1E21050973003EA43F /* Assets.xcassets */; };
 		D7A6DA2221050973003EA43F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A6DA2021050973003EA43F /* LaunchScreen.storyboard */; };
+		D7A6DA2A21050A05003EA43F /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6DA2921050A04003EA43F /* GalleryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D7A6DA1E21050973003EA43F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7A6DA2121050973003EA43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7A6DA2321050973003EA43F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A6DA2921050A04003EA43F /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				D7A6DA1421050973003EA43F /* AppDelegate.swift */,
 				D7A6DA1621050973003EA43F /* ViewController.swift */,
+				D7A6DA2921050A04003EA43F /* GalleryViewController.swift */,
 				D7A6DA1821050973003EA43F /* Main.storyboard */,
 				D7A6DA1E21050973003EA43F /* Assets.xcassets */,
 				D7A6DA2021050973003EA43F /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7A6DA1721050973003EA43F /* ViewController.swift in Sources */,
+				D7A6DA2A21050A05003EA43F /* GalleryViewController.swift in Sources */,
 				D7A6DA1521050973003EA43F /* AppDelegate.swift in Sources */,
 				D7A6DA1D21050973003EA43F /* PhotoApp.xcdatamodeld in Sources */,
 			);
