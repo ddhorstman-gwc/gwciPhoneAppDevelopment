@@ -51,6 +51,12 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UIImagePi
         cameraImage.image = info[UIImagePickerControllerOriginalImage] as? UIImage
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! GalleryViewController
+        destinationVC.imageCounter = imageCounter
+        destinationVC.imageNameDefault = imageNameDefault
+    }
+    
     
 }
 
