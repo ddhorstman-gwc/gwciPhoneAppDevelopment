@@ -10,6 +10,7 @@ import UIKit
 
 class GalleryViewController: UIViewController {
 
+    @IBOutlet weak var galleryImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +20,10 @@ class GalleryViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    @IBAction func prevImage(_ sender: UIButton) {
+    }
+    @IBAction func nextImage(_ sender: UIButton) {
     }
     
 
