@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7A6DA1521050973003EA43F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6DA1421050973003EA43F /* AppDelegate.swift */; };
+		D7A6DA1721050973003EA43F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6DA1621050973003EA43F /* ViewController.swift */; };
+		D7A6DA1A21050973003EA43F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A6DA1821050973003EA43F /* Main.storyboard */; };
+		D7A6DA1D21050973003EA43F /* PhotoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7A6DA1B21050973003EA43F /* PhotoApp.xcdatamodeld */; };
+		D7A6DA1F21050973003EA43F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A6DA1E21050973003EA43F /* Assets.xcassets */; };
+		D7A6DA2221050973003EA43F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A6DA2021050973003EA43F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7A6DA1121050973003EA43F /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A6DA1421050973003EA43F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7A6DA1621050973003EA43F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7A6DA1921050973003EA43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7A6DA1C21050973003EA43F /* PhotoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoApp.xcdatamodel; sourceTree = "<group>"; };
+		D7A6DA1E21050973003EA43F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7A6DA2121050973003EA43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7A6DA2321050973003EA43F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7A6DA0E21050973003EA43F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7A6DA0821050972003EA43F = {
+			isa = PBXGroup;
+			children = (
+				D7A6DA1321050973003EA43F /* PhotoApp */,
+				D7A6DA1221050973003EA43F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7A6DA1221050973003EA43F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7A6DA1121050973003EA43F /* PhotoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7A6DA1321050973003EA43F /* PhotoApp */ = {
+			isa = PBXGroup;
+			children = (
+				D7A6DA1421050973003EA43F /* AppDelegate.swift */,
+				D7A6DA1621050973003EA43F /* ViewController.swift */,
+				D7A6DA1821050973003EA43F /* Main.storyboard */,
+				D7A6DA1E21050973003EA43F /* Assets.xcassets */,
+				D7A6DA2021050973003EA43F /* LaunchScreen.storyboard */,
+				D7A6DA2321050973003EA43F /* Info.plist */,
+				D7A6DA1B21050973003EA43F /* PhotoApp.xcdatamodeld */,
+			);
+			path = PhotoApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7A6DA1021050973003EA43F /* PhotoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A6DA2621050973003EA43F /* Build configuration list for PBXNativeTarget "PhotoApp" */;
+			buildPhases = (
+				D7A6DA0D21050973003EA43F /* Sources */,
+				D7A6DA0E21050973003EA43F /* Frameworks */,
+				D7A6DA0F21050973003EA43F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoApp;
+			productName = PhotoApp;
+			productReference = D7A6DA1121050973003EA43F /* PhotoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7A6DA0921050972003EA43F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "David Hortsman";
+				TargetAttributes = {
+					D7A6DA1021050973003EA43F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7A6DA0C21050972003EA43F /* Build configuration list for PBXProject "PhotoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7A6DA0821050972003EA43F;
+			productRefGroup = D7A6DA1221050973003EA43F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7A6DA1021050973003EA43F /* PhotoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7A6DA0F21050973003EA43F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A6DA2221050973003EA43F /* LaunchScreen.storyboard in Resources */,
+				D7A6DA1F21050973003EA43F /* Assets.xcassets in Resources */,
+				D7A6DA1A21050973003EA43F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7A6DA0D21050973003EA43F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A6DA1721050973003EA43F /* ViewController.swift in Sources */,
+				D7A6DA1521050973003EA43F /* AppDelegate.swift in Sources */,
+				D7A6DA1D21050973003EA43F /* PhotoApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7A6DA1821050973003EA43F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A6DA1921050973003EA43F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7A6DA2021050973003EA43F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A6DA2121050973003EA43F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7A6DA2421050973003EA43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7A6DA2521050973003EA43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A6DA2721050973003EA43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddhorstman.PhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7A6DA2821050973003EA43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddhorstman.PhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7A6DA0C21050972003EA43F /* Build configuration list for PBXProject "PhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A6DA2421050973003EA43F /* Debug */,
+				D7A6DA2521050973003EA43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A6DA2621050973003EA43F /* Build configuration list for PBXNativeTarget "PhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A6DA2721050973003EA43F /* Debug */,
+				D7A6DA2821050973003EA43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7A6DA1B21050973003EA43F /* PhotoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7A6DA1C21050973003EA43F /* PhotoApp.xcdatamodel */,
+			);
+			currentVersion = D7A6DA1C21050973003EA43F /* PhotoApp.xcdatamodel */;
+			path = PhotoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7A6DA0921050972003EA43F /* Project object */;
+}
