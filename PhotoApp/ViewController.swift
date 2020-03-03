@@ -36,7 +36,7 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UIImagePi
         let imagePath = (NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString).appendingPathComponent(imageName)
         
         let image = cameraImage.image!
-        let imageData = UIImagePNGRepresentation(image)
+        let imageData = image.pngData()
         fileManager.createFile(atPath: imagePath as String, contents: imageData, attributes: nil)
     
     }
@@ -46,9 +46,12 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UIImagePi
         imageNameDefault = "image\(imageCounter).png"
     }
 
-    func imagePickerController(_ picker: UIImagePickerController,didFinishPickingMediaWithInfo info: [String : Any]) {
+    func imagePickerController(_ picker: UIImagePickerController,didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+// Local variable inserted by Swift 4.2 migrator.
+let info = convertFromUIImagePickerControllerInfoKeyDictionary(info)
+
         imagePickerController.dismiss(animated: true, completion: nil)
-        cameraImage.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+        cameraImage.image = info[convertFromUIImagePickerControllerInfoKey(UIImagePickerController.InfoKey.originalImage)] as? UIImage
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -60,3 +63,13 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UIImagePi
     
 }
 
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromUIImagePickerControllerInfoKeyDictionary(_ input: [UIImagePickerController.InfoKey: Any]) -> [String: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map {key, value in (key.rawValue, value)})
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromUIImagePickerControllerInfoKey(_ input: UIImagePickerController.InfoKey) -> String {
+	return input.rawValue
+}
