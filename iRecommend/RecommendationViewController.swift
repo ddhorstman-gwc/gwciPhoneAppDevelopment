@@ -22,7 +22,7 @@ class RecommendationViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
+    override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         getRecommendation()
     }
     var i: (Int) = 0
